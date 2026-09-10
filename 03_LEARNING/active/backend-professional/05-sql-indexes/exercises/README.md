@@ -19,7 +19,7 @@ Intenta resolverlos antes de consultar soluciones. Registra razonamiento, supues
 
 ## Implementación práctica
 
-7. Implementa el escenario mínimo del laboratorio **LAB-BACKEND-004-postgresql-query-plan** y registra resultado esperado frente a resultado real.
+7. Implementa la fase de queries, EXPLAIN ANALYZE e índices del laboratorio **LAB-BACKEND-004-postgresql-model-and-query-plan** y registra resultado esperado frente a resultado real.
 8. Rompe o estresa el escenario de forma controlada, aplica una solución y vuelve a medir.
 
 ## Decisión técnica

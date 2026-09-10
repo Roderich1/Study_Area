@@ -32,7 +32,7 @@ Construir el modelo mental, contrastar alternativas y anotar qué garantías ofr
 
 ### 45–95 min — Laboratorio
 
-Implementar o instrumentar el escenario de [LAB-BACKEND-004-postgresql-query-plan](../../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-query-plan) dentro de production-api-lab. Romperlo deliberadamente cuando sea seguro, observar la evidencia y registrar resultado esperado y real por separado.
+Implementar o instrumentar la fase de queries, EXPLAIN ANALYZE e índices del escenario de [LAB-BACKEND-004-postgresql-model-and-query-plan](../../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-model-and-query-plan) dentro de production-api-lab. Romperlo deliberadamente cuando sea seguro, observar la evidencia y registrar resultado esperado y real por separado.
 
 ### 95–105 min — Explicación sin apuntes
 
@@ -44,7 +44,7 @@ Actualizar ejercicios, preguntas, errores reales, entregables y checkpoint. Si f
 
 ## Laboratorio asociado
 
-**LAB-BACKEND-004-postgresql-query-plan** — comparar una consulta lenta antes y después de un índice usando PostgreSQL real. La planificación y el contrato del laboratorio están en [04_LABS/backend/LAB_INDEX.md](../../../../04_LABS/backend/LAB_INDEX.md).
+**LAB-BACKEND-004-postgresql-model-and-query-plan** — cargar un dataset, leer EXPLAIN ANALYZE y comparar una consulta antes y después de un índice usando PostgreSQL real. La planificación y el contrato del laboratorio están en [04_LABS/backend/LAB_INDEX.md](../../../../04_LABS/backend/LAB_INDEX.md).
 
 ## Ejercicios
 
