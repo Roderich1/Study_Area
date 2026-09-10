@@ -41,7 +41,7 @@ Las sesiones 01—03 establecen red y contratos; 04—07 establecen persistencia
 - **Objetivo:** Modelar datos relacionales con integridad explícita y migraciones reproducibles.
 - **Conceptos:** entities, relationships, PK, FK, UNIQUE, CHECK, NOT NULL, normalization, denormalization, integridad, schema evolution y Flyway.
 - **Ejercicios:** recuperación activa, análisis de un caso de producción, implementación en production-api-lab, diagnóstico de una falla intencional y defensa de un trade-off.
-- **Laboratorio:** [LAB-BACKEND-004-postgresql-query-plan](../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-query-plan) — proponer el modelo inicial de production-api-lab y una secuencia segura de migraciones.
+- **Laboratorio:** [LAB-BACKEND-004-postgresql-model-and-query-plan](../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-model-and-query-plan) — diseñar el modelo relacional inicial, sus restricciones y una secuencia segura de migraciones.
 - **Entregables:** notas provisionales, ejercicios resueltos, evidencia del laboratorio cuando se ejecute, actualización del proyecto y [checkpoint](../../../03_LEARNING/active/backend-professional/04-data-modeling/checkpoint.md).
 - **Recursos:** comenzar por la documentación oficial enlazada en [Backend Resources](../../../09_RESOURCES/backend-resources.md); elegir solo lo necesario para la pregunta de la sesión.
 - **Dependencias:** respetar las dependencias globales anteriores y consultar el README de la sesión.
@@ -50,7 +50,7 @@ Las sesiones 01—03 establecen red y contratos; 04—07 establecen persistencia
 - **Objetivo:** Leer planes de ejecución y justificar índices según selectividad, cardinalidad y coste.
 - **Conceptos:** JOIN, GROUP BY, subqueries, CTE, EXPLAIN, EXPLAIN ANALYZE, B-tree, índices compuestos, parciales y covering, selectivity, cardinality y trade-offs.
 - **Ejercicios:** recuperación activa, análisis de un caso de producción, implementación en production-api-lab, diagnóstico de una falla intencional y defensa de un trade-off.
-- **Laboratorio:** [LAB-BACKEND-004-postgresql-query-plan](../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-query-plan) — comparar una consulta lenta antes y después de un índice usando PostgreSQL real.
+- **Laboratorio:** [LAB-BACKEND-004-postgresql-model-and-query-plan](../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-model-and-query-plan) — cargar un dataset, leer EXPLAIN ANALYZE y comparar una consulta antes y después de un índice usando PostgreSQL real.
 - **Entregables:** notas provisionales, ejercicios resueltos, evidencia del laboratorio cuando se ejecute, actualización del proyecto y [checkpoint](../../../03_LEARNING/active/backend-professional/05-sql-indexes/checkpoint.md).
 - **Recursos:** comenzar por la documentación oficial enlazada en [Backend Resources](../../../09_RESOURCES/backend-resources.md); elegir solo lo necesario para la pregunta de la sesión.
 - **Dependencias:** respetar las dependencias globales anteriores y consultar el README de la sesión.

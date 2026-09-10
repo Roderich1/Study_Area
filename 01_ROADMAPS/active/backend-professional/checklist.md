@@ -32,7 +32,7 @@ Esta lista verifica desempeño, no lectura. Marca un criterio solo con una expli
 
 - [ ] Puedo explicar los conceptos principales y sus límites sin consultar apuntes.
 - [ ] Puedo aplicar el modelo a production-api-lab y justificar el contrato o diseño elegido.
-- [ ] Completé el laboratorio [LAB-BACKEND-004-postgresql-query-plan](../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-query-plan) y registré evidencia real.
+- [ ] Completé la fase de modelado y migraciones del laboratorio [LAB-BACKEND-004-postgresql-model-and-query-plan](../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-model-and-query-plan) y registré evidencia real.
 - [ ] Puedo reproducir y diagnosticar al menos una falla o comportamiento no ideal del tema.
 - [ ] Puedo comparar dos alternativas y explicar el trade-off de producción.
 - [ ] Documenté preguntas, errores reales y lecciones; no inventé resultados.
@@ -41,7 +41,7 @@ Esta lista verifica desempeño, no lectura. Marca un criterio solo con una expli
 
 - [ ] Puedo explicar los conceptos principales y sus límites sin consultar apuntes.
 - [ ] Puedo aplicar el modelo a production-api-lab y justificar el contrato o diseño elegido.
-- [ ] Completé el laboratorio [LAB-BACKEND-004-postgresql-query-plan](../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-query-plan) y registré evidencia real.
+- [ ] Completé la fase de queries, EXPLAIN ANALYZE e índices del laboratorio [LAB-BACKEND-004-postgresql-model-and-query-plan](../../../04_LABS/backend/LAB_INDEX.md#lab-backend-004-postgresql-model-and-query-plan) y registré evidencia real.
 - [ ] Puedo reproducir y diagnosticar al menos una falla o comportamiento no ideal del tema.
 - [ ] Puedo comparar dos alternativas y explicar el trade-off de producción.
 - [ ] Documenté preguntas, errores reales y lecciones; no inventé resultados.
@@ -136,4 +136,3 @@ Esta lista verifica desempeño, no lectura. Marca un criterio solo con una expli
 - [ ] Puedo comparar dos alternativas y explicar el trade-off de producción.
 - [ ] Documenté preguntas, errores reales y lecciones; no inventé resultados.
 - [ ] Completé el checkpoint con promedio >= 4/5.
-

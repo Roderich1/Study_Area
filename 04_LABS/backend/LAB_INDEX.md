@@ -7,7 +7,7 @@ Estado inicial de todos los laboratorios: `PLANNED`. Esta tabla es planificació
 | <a id="lab-backend-001-request-lifecycle"></a>LAB-BACKEND-001-request-lifecycle | Seguir DNS → TCP/TLS → HTTP → aplicación → base de datos | 01 | PLANNED | production-api-lab |
 | <a id="lab-backend-002-http-conditional-requests"></a>LAB-BACKEND-002-http-conditional-requests | Probar ETag y solicitudes condicionales | 02 | PLANNED | production-api-lab |
 | <a id="lab-backend-003-api-error-contract"></a>LAB-BACKEND-003-api-error-contract | Diseñar Problem Details, validación y compatibilidad | 03 | PLANNED | production-api-lab |
-| <a id="lab-backend-004-postgresql-query-plan"></a>LAB-BACKEND-004-postgresql-query-plan | Leer EXPLAIN ANALYZE y comparar índices | 04–05 | PLANNED | production-api-lab |
+| <a id="lab-backend-004-postgresql-model-and-query-plan"></a>LAB-BACKEND-004-postgresql-model-and-query-plan | Diseñar el modelo relacional, cargarlo reproduciblemente y analizar consultas e índices | 04–05 | PLANNED | production-api-lab |
 | <a id="lab-backend-005-lost-update"></a>LAB-BACKEND-005-lost-update | Reproducir y resolver una carrera con `stock = 1` | 06 | PLANNED | production-api-lab |
 | <a id="lab-backend-006-deadlock"></a>LAB-BACKEND-006-deadlock | Observar orden de locks y recuperación segura | 06 | PLANNED | production-api-lab |
 | <a id="lab-backend-007-jpa-n-plus-one"></a>LAB-BACKEND-007-jpa-n-plus-one | Detectar N+1 y evaluar carga por lotes | 07 | PLANNED | production-api-lab |
@@ -19,6 +19,18 @@ Estado inicial de todos los laboratorios: `PLANNED`. Esta tabla es planificació
 | <a id="lab-backend-013-transactional-outbox"></a>LAB-BACKEND-013-transactional-outbox | Coordinar escritura de datos y evento | 12 | PLANNED | production-api-lab |
 | <a id="lab-backend-014-containerized-stack"></a>LAB-BACKEND-014-containerized-stack | Empaquetar API, PostgreSQL, Redis y healthchecks | 14 | PLANNED | production-api-lab |
 | <a id="lab-backend-015-observability-diagnosis"></a>LAB-BACKEND-015-observability-diagnosis | Diagnosticar endpoint lento con logs, métricas y trazas | 15 | PLANNED | production-api-lab |
+
+## LAB-BACKEND-004 — Modelo PostgreSQL y plan de consultas
+
+Este laboratorio transversal permanece en estado `PLANNED` y conecta las sesiones 04 y 05 sobre el mismo esquema:
+
+### Sesión 04 — Modelo y migraciones
+
+Diseñar el modelo relacional inicial, definir PK/FK, `UNIQUE`, `CHECK` y `NOT NULL`, revisar la normalización, crear migraciones Flyway y cargar el esquema de forma reproducible.
+
+### Sesión 05 — Queries, coste e índices
+
+Crear un dataset, ejecutar queries, leer `EXPLAIN ANALYZE`, identificar el coste, diseñar un índice y comparar el comportamiento antes y después.
 
 ## Convención de materialización
 

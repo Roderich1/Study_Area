@@ -15,6 +15,8 @@
 - [Evidence](../11_EVIDENCE/) — evidencias reales.
 - [Templates](../12_TEMPLATES/) — formatos reutilizables.
 - [Portfolio](../13_PORTFOLIO/) — selección profesional.
+- [Inbox](../90_INBOX/) — captura temporal sin clasificar.
+- [Archive](../99_ARCHIVE/) — material histórico u obsoleto.
 
 ## Backend Professional
 
