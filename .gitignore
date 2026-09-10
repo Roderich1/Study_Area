@@ -1,0 +1,27 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+private/
+
+# IDE / OS noise
+.DS_Store
+Thumbs.db
+
+# Large operational artifacts
+*.iso
+*.img
+*.qcow2
+*.vdi
+*.vmdk
+*.dump
+
+# Local runtime directories
+tmp/
+.temp/
